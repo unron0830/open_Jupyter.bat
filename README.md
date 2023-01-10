@@ -18,12 +18,20 @@ Use bat to open jupyter on anaconda and env and chamge disk
     @set _args1_last=
     
 2.1 New a bat to open activate_julab.bat
-rem Change Disk
-E:   
 
-rem Change Folder
-CD E:\Asbestos_UN 
 
-rem use cmd to openjupyter Lab and set env
-%windir%\System32\cmd.exe "/K" C:\Users\EOSPHD\anaconda3\Scripts\activate_julab.bat tf_2.5_py_3.8 
+  rem Change Disk
+
+
+  E:   
+
+  rem Change Folder
+
+
+  CD E:\Asbestos_UN 
+
+  rem use cmd to openjupyter Lab and set env
+
+
+  %windir%\System32\cmd.exe "/K" C:\Users\EOSPHD\anaconda3\Scripts\activate_julab.bat tf_2.5_py_3.8 
 
